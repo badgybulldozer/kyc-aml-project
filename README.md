@@ -1,6 +1,6 @@
-# AML Review Desk
+# KYC/AML Project
 
-**Live site:** https://aml-review-desk.vercel.app
+**Live site:** https://kyc-aml-project.vercel.app
 
 An interactive AML and financial-crime portfolio in three parts:
 
