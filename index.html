@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AML Review Desk</title>
+  <meta name="description" content="An interactive AML portfolio by Vishnu Suresh: a transfer-agency review desk, a fraud rules lab and a laundering pattern lab, all computed live on synthetic data.">
+  <meta property="og:title" content="AML Review Desk">
+  <meta property="og:description" content="Follow the money: KYC risk scoring, monitoring rules, fraud-rule trade-offs and laundering network patterns, all interactive and built on synthetic data.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css?v=3">
+  <link rel="stylesheet" href="css/v2.css?v=7">
+  <script>
+    try { const t = localStorage.getItem('ard-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="shell">
+    <aside class="side">
+      <a class="brand" href="#/home">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M9 16.5l4.5 4.5L23 11.5" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><strong>AML Review Desk</strong><small>AML &amp; financial crime lab</small></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/home" data-nav="home">Start here</a>
+        <span class="group">Review desk</span>
+        <a href="#/overview" data-nav="overview">Overview</a>
+        <a href="#/alerts" data-nav="alerts">Alert queue <span class="count" id="nav-open"></span></a>
+        <a href="#/investors" data-nav="investors">Investor register</a>
+        <a href="#/rules" data-nav="rules">Rules &amp; risk model</a>
+        <span class="group">Labs</span>
+        <a href="#/fraud-lab" data-nav="fraud-lab">Fraud rules lab <span class="new">live</span></a>
+        <a href="#/graph-lab" data-nav="graph-lab">Pattern lab <span class="new">live</span></a>
+        <span class="group">More</span>
+        <a href="#/roadmap" data-nav="roadmap">Roadmap</a>
+        <a href="#/about" data-nav="about">About</a>
+      </nav>
+      <div class="side-foot">
+        <button class="ghost" id="theme-toggle" type="button">Toggle theme</button>
+        <p>All investors, funds and transactions are synthetic.</p>
+      </div>
+    </aside>
+    <main id="main" class="main" tabindex="-1"></main>
+  </div>
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="js/app.js?v=3"></script>
+</body>
+</html>
