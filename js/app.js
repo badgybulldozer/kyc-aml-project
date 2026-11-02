@@ -541,6 +541,7 @@ function viewAbout() {
         </div></div>
         <div class="card"><h2>Author</h2><div class="prose mt">
           <p>Built by <strong>Vishnu Suresh</strong>, a final-year B.Com (Honours) student in Chennai, as a hands-on way to learn AML and KYC practice in fund administration.</p>
+          <p><a href="https://github.com/badgybulldozer/aml-review-desk" target="_blank" rel="noopener">View the code on GitHub →</a></p>
           <p class="muted">A learning project. Not affiliated with, or endorsed by, any financial institution.</p>
         </div></div>
         <div class="card"><h2>Reset</h2><p class="ink2">Clear every decision you have recorded in this browser.</p><div class="actions mt"><button class="btn danger" id="reset">Reset all my changes</button></div></div>
